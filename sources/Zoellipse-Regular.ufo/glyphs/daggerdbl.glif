@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="daggerdbl" format="2">
+  <advance width="915"/>
+  <unicode hex="2021"/>
+  <outline>
+    <contour>
+      <point x="358" y="-322" type="line"/>
+      <point x="552" y="-322" type="line"/>
+      <point x="521" y="188" type="line"/>
+      <point x="877" y="163" type="line"/>
+      <point x="877" y="338" type="line"/>
+      <point x="515" y="310" type="line"/>
+      <point x="515" y="787" type="line"/>
+      <point x="877" y="760" type="line"/>
+      <point x="877" y="933" type="line"/>
+      <point x="521" y="909" type="line"/>
+      <point x="551" y="1446" type="line"/>
+      <point x="358" y="1446" type="line"/>
+      <point x="387" y="909" type="line"/>
+      <point x="31" y="933" type="line"/>
+      <point x="31" y="760" type="line"/>
+      <point x="394" y="787" type="line"/>
+      <point x="394" y="310" type="line"/>
+      <point x="31" y="338" type="line"/>
+      <point x="31" y="163" type="line"/>
+      <point x="388" y="188" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dagger</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dagger</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

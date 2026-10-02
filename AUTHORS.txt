@@ -1,0 +1,11 @@
+# This is the official list of project authors for copyright purposes.
+# This file is distinct from the CONTRIBUTORS.txt file.
+# See the latter for an expanded list of contributors.
+#
+# Names should be added to this file as:
+# Name or Organization <email address>
+# The email address is not required for organizations.
+
+Charlie Champanhet
+The Public Sans Project Authors (https://github.com/uswds/public-sans)
+Pablo Impallari, Rodrigo Fuenzalida (Libre Franklin)

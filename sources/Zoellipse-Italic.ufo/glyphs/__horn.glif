@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="__horn" format="2">
+  <advance width="213"/>
+  <anchor x="60" y="946" name="_horn"/>
+  <anchor x="226" y="1060" name="_topright"/>
+  <anchor x="226" y="1060" name="topright"/>
+  <outline>
+    <contour>
+      <point x="60" y="946" type="line"/>
+      <point x="283" y="920"/>
+      <point x="378" y="1015"/>
+      <point x="413" y="1252" type="curve"/>
+      <point x="276" y="1252" type="line"/>
+      <point x="241" y="1060"/>
+      <point x="203" y="1054"/>
+      <point x="76" y="1055" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

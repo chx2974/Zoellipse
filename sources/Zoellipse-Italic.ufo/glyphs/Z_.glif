@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Z" format="2">
+  <advance width="1228"/>
+  <unicode hex="005A"/>
+  <anchor x="570" y="0" name="bottom"/>
+  <anchor x="786" y="1446" name="top"/>
+  <outline>
+    <contour>
+      <point x="54" y="0" type="line"/>
+      <point x="1049" y="0" type="line"/>
+      <point x="1074" y="163" type="line"/>
+      <point x="325" y="163" type="line"/>
+      <point x="1249" y="1348" type="line"/>
+      <point x="1263" y="1446" type="line"/>
+      <point x="296" y="1446" type="line"/>
+      <point x="272" y="1285" type="line"/>
+      <point x="985" y="1285" type="line"/>
+      <point x="70" y="102" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=H/1.5</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=H/2</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

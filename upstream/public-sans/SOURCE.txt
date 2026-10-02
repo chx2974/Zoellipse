@@ -1,0 +1,4 @@
+Public Sans upstream sources, unmodified.
+Repository: https://github.com/uswds/public-sans
+Commit: e40fcf567e44b4f5f08a658247663275fa1ad741 (branch develop, fetched 2026-10-02)
+Files: sources/PublicSans.glyphs, sources/PublicSans-Italic.glyphs, LICENSE.md

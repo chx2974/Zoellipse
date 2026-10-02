@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zoellipse Specimen</title>
+<style>
+  @font-face {
+    font-family: "Zoellipse";
+    src: url("../fonts/variable/Zoellipse%5Bwght%5D.woff2") format("woff2"),
+         url("../fonts/variable/Zoellipse%5Bwght%5D.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Zoellipse";
+    src: url("../fonts/variable/Zoellipse-Italic%5Bwght%5D.woff2") format("woff2"),
+         url("../fonts/variable/Zoellipse-Italic%5Bwght%5D.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+  }
+  :root { --bg: #fbfaf7; --fg: #16161a; --muted: #6b6b75; --line: #e3e1da; --accent: #3b5bdb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141417; --fg: #ececf0; --muted: #9a9aa6; --line: #2c2c33; --accent: #8ea6ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 system-ui, sans-serif; }
+  main { max-width: 1000px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font: 700 20px/1.2 system-ui, sans-serif; margin: 0 0 4px; }
+  h2 { font: 600 13px/1.2 system-ui, sans-serif; text-transform: uppercase; letter-spacing: .08em;
+       color: var(--muted); margin: 40px 0 12px; border-top: 1px solid var(--line); padding-top: 16px; }
+  p.note { color: var(--muted); margin: 0 0 16px; max-width: 70ch; }
+  .z { font-family: "Zoellipse", sans-serif; }
+  .controls { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 16px 0; }
+  .controls label { display: flex; align-items: center; gap: 8px; }
+  .live { font-family: "Zoellipse", sans-serif; font-size: clamp(32px, 7vw, 64px); line-height: 1.15;
+          font-weight: var(--w, 400); overflow-wrap: anywhere; }
+  .row { display: grid; grid-template-columns: 56px 1fr; gap: 12px; align-items: baseline;
+         padding: 6px 0; border-bottom: 1px solid var(--line); }
+  .row .tag { color: var(--muted); font-size: 12px; }
+  .row .s { font-family: "Zoellipse", sans-serif; font-size: clamp(24px, 5vw, 44px); line-height: 1.2; }
+  table.num { border-collapse: collapse; font-family: "Zoellipse", sans-serif; font-size: clamp(20px, 4vw, 32px); }
+  table.num th { font: 12px system-ui, sans-serif; color: var(--muted); text-align: right; padding: 4px 16px; }
+  table.num td { text-align: right; padding: 2px 16px; border-top: 1px solid var(--line); }
+  .cmp { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .cmp .s { font-family: "Zoellipse", sans-serif; font-size: clamp(24px, 5vw, 44px); line-height: 1.3; }
+  .cmp .tag { color: var(--muted); font-size: 12px; }
+  .pn { font-feature-settings: "pnum"; }
+  @media (max-width: 600px) { .cmp { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Zoellipse v1.000 · variable wght 100–900 · upright + italic</h1>
+  <p class="note">A Modified Version of Public Sans: slightly superelliptic curves, a taller x-height and tabular digits by default. SIL OFL 1.1.</p>
+
+  <div class="controls">
+    <label>Weight <input id="w" type="range" min="100" max="900" step="1" value="400"> <span id="wv">400</span></label>
+    <label><input id="it" type="checkbox"> Italic</label>
+  </div>
+  <div class="live" id="live" contenteditable="true" spellcheck="false">Sphinx of black quartz, judge my vow. 0123456789</div>
+
+  <h2>Weights</h2>
+  <div id="weights"></div>
+
+  <h2>Tabular digits (default)</h2>
+  <p class="note">Every digit and the figure space is 620 units wide at every weight, so columns align with no extra CSS.</p>
+  <table class="num">
+    <tr><th>100</th><th>400</th><th>900</th></tr>
+    <tr><td style="font-weight:100">1,111.11</td><td style="font-weight:400">1,111.11</td><td style="font-weight:900">1,111.11</td></tr>
+    <tr><td style="font-weight:100">8,888.88</td><td style="font-weight:400">8,888.88</td><td style="font-weight:900">8,888.88</td></tr>
+    <tr><td style="font-weight:100">2,047.65</td><td style="font-weight:400">2,047.65</td><td style="font-weight:900">2,047.65</td></tr>
+    <tr><td style="font-weight:100">9,301.20</td><td style="font-weight:400">9,301.20</td><td style="font-weight:900">9,301.20</td></tr>
+  </table>
+
+  <h2>Tabular vs proportional (pnum)</h2>
+  <div class="cmp">
+    <div><div class="tag">default (tabular)</div><div class="s">1111 2020 1,234.56</div><div class="s"><i>1111 2020 1,234.56</i></div></div>
+    <div><div class="tag">font-feature-settings: "pnum"</div><div class="s pn">1111 2020 1,234.56</div><div class="s pn"><i>1111 2020 1,234.56</i></div></div>
+  </div>
+
+  <h2>Character set</h2>
+  <div class="row"><div class="tag">Upper</div><div class="s">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div></div>
+  <div class="row"><div class="tag">Lower</div><div class="s">abcdefghijklmnopqrstuvwxyz</div></div>
+  <div class="row"><div class="tag">Figures</div><div class="s">0123456789 €$£¥ %‰ +−×÷=</div></div>
+  <div class="row"><div class="tag">Accents</div><div class="s">ÀÉÎÕÜ çñøåæœß ğşž</div></div>
+  <div class="row"><div class="tag">Italic</div><div class="s"><i>Hamburgefonstiv 0123456789</i></div></div>
+</main>
+<script>
+  var live = document.getElementById("live"), w = document.getElementById("w"),
+      wv = document.getElementById("wv"), it = document.getElementById("it");
+  function upd() { live.style.fontWeight = w.value; wv.textContent = w.value;
+                   live.style.fontStyle = it.checked ? "italic" : "normal"; }
+  w.oninput = it.onchange = upd; upd();
+  var names = [[100,"Thin"],[200,"ExtraLight"],[300,"Light"],[400,"Regular"],[500,"Medium"],
+               [600,"SemiBold"],[700,"Bold"],[800,"ExtraBold"],[900,"Black"]];
+  document.getElementById("weights").innerHTML = names.map(function (n) {
+    return '<div class="row"><div class="tag">' + n[0] + '</div><div class="s" style="font-weight:' + n[0] +
+           '">' + n[1] + ' Quick brown fox 0123456789</div></div>'; }).join("");
+</script>
+</body>
+</html>

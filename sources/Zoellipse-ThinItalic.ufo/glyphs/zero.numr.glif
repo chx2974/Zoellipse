@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.numr" format="2">
+  <advance width="665"/>
+  <outline>
+    <contour>
+      <point x="337" y="544" type="curve" smooth="yes"/>
+      <point x="533" y="544"/>
+      <point x="628" y="643"/>
+      <point x="680" y="1011" type="curve" smooth="yes"/>
+      <point x="732" y="1381"/>
+      <point x="665" y="1480"/>
+      <point x="469" y="1480" type="curve" smooth="yes"/>
+      <point x="274" y="1480"/>
+      <point x="179" y="1380"/>
+      <point x="127" y="1008" type="curve" smooth="yes"/>
+      <point x="76" y="642"/>
+      <point x="140" y="544"/>
+    </contour>
+    <contour>
+      <point x="346" y="596" type="curve" smooth="yes"/>
+      <point x="182" y="596"/>
+      <point x="132" y="675"/>
+      <point x="179" y="1011" type="curve" smooth="yes"/>
+      <point x="227" y="1350"/>
+      <point x="299" y="1429"/>
+      <point x="462" y="1429" type="curve" smooth="yes"/>
+      <point x="625" y="1429"/>
+      <point x="673" y="1351"/>
+      <point x="625" y="1011" type="curve" smooth="yes"/>
+      <point x="578" y="673"/>
+      <point x="511" y="596"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

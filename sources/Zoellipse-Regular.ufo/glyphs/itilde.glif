@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="itilde" format="2">
+  <advance width="559"/>
+  <unicode hex="0129"/>
+  <anchor x="342" y="24" name="ogonek"/>
+  <anchor x="276" y="1056" name="top"/>
+  <outline>
+    <component base="idotless" xOffset="33"/>
+    <component base="tildecomb" xOffset="-63" yOffset="22"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>x</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>x</string>
+    </dict>
+  </lib>
+</glyph>

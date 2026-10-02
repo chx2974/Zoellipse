@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon" format="2">
+  <advance width="448"/>
+  <unicode hex="003A"/>
+  <outline>
+    <contour>
+      <point x="147" y="777" type="line"/>
+      <point x="361" y="777" type="line"/>
+      <point x="395" y="1011" type="line"/>
+      <point x="181" y="1011" type="line"/>
+    </contour>
+    <contour>
+      <point x="38" y="6" type="line"/>
+      <point x="251" y="6" type="line"/>
+      <point x="286" y="239" type="line"/>
+      <point x="72" y="239" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>period</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>period</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

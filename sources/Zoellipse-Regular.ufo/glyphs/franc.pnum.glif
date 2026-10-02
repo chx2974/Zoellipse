@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="franc.pnum" format="2">
+  <advance width="1216"/>
+  <outline>
+    <contour>
+      <point x="171" y="0" type="line"/>
+      <point x="382" y="0" type="line"/>
+      <point x="382" y="629" type="line"/>
+      <point x="997" y="629" type="line"/>
+      <point x="997" y="787" type="line"/>
+      <point x="382" y="787" type="line"/>
+      <point x="382" y="1286" type="line"/>
+      <point x="1116" y="1286" type="line"/>
+      <point x="1117" y="1446" type="line"/>
+      <point x="171" y="1446" type="line"/>
+    </contour>
+    <contour>
+      <point x="-14" y="266" type="line"/>
+      <point x="708" y="267" type="line"/>
+      <point x="708" y="384" type="line"/>
+      <point x="-14" y="382" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

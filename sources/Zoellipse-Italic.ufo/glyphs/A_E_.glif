@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AE" format="2">
+  <advance width="1860"/>
+  <unicode hex="00C6"/>
+  <anchor x="1352" y="1446" name="top"/>
+  <outline>
+    <contour>
+      <point x="-73" y="0" type="line"/>
+      <point x="110" y="0" type="line"/>
+      <point x="374" y="401" type="line"/>
+      <point x="841" y="401" type="line"/>
+      <point x="783" y="0" type="line"/>
+      <point x="1663" y="0" type="line"/>
+      <point x="1686" y="161" type="line"/>
+      <point x="1012" y="161" type="line"/>
+      <point x="1082" y="650" type="line"/>
+      <point x="1671" y="650" type="line"/>
+      <point x="1694" y="809" type="line"/>
+      <point x="1105" y="809" type="line"/>
+      <point x="1174" y="1286" type="line"/>
+      <point x="1825" y="1286" type="line"/>
+      <point x="1848" y="1446" type="line"/>
+      <point x="890" y="1446" type="line"/>
+    </contour>
+    <contour>
+      <point x="470" y="566" type="line"/>
+      <point x="972" y="1312" type="line"/>
+      <point x="864" y="566" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>E</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

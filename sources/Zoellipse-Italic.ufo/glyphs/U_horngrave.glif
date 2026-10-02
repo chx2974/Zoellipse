@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhorngrave" format="2">
+  <advance width="1555"/>
+  <unicode hex="1EEA"/>
+  <anchor x="616" y="3" name="bottom"/>
+  <anchor x="1248" y="1171" name="horn"/>
+  <anchor x="746" y="12" name="ogonek"/>
+  <anchor x="828" y="1446" name="top"/>
+  <anchor x="1410" y="1285" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="__horn" xOffset="1184" yOffset="225"/>
+    <component base="gravecomb" xOffset="327" yOffset="412"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>U</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>__horn</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>gravecomb</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Uhorn</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Uhorn</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,9 @@
+# Build + checks (`make build`, `make check`, `make release`). Pinned to the versions the
+# fonts were built with: the pipeline relies on glyphsLib/fontmake behaviour.
+fonttools[ufo,woff,unicode]==4.66.1
+fontmake==3.12.1
+glyphsLib==6.15.0
+ufo2ft==3.9.1
+ufoLib2==0.18.1
+uharfbuzz==0.56.2
+brotli==1.2.0

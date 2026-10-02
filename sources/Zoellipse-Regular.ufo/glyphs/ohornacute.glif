@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohornacute" format="2">
+  <advance width="1203"/>
+  <unicode hex="1EDB"/>
+  <anchor x="573" y="1056" name="_top"/>
+  <anchor x="567" y="0" name="bottom"/>
+  <anchor x="884" y="824" name="horn"/>
+  <anchor x="701" y="20" name="ogonek"/>
+  <anchor x="566" y="1056" name="top"/>
+  <anchor x="1020" y="941" name="topright"/>
+  <outline>
+    <component base="acutecomb" xOffset="482"/>
+    <component base="ohorn"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ohorn</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ohorn</string>
+    </dict>
+  </lib>
+</glyph>

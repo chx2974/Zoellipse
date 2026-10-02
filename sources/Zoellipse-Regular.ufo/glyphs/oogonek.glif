@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oogonek" format="2">
+  <advance width="1131"/>
+  <unicode hex="01EB"/>
+  <anchor x="567" y="0" name="bottom"/>
+  <anchor x="884" y="824" name="horn"/>
+  <anchor x="720" y="25" name="ogonek"/>
+  <anchor x="566" y="1056" name="top"/>
+  <anchor x="720" y="25" name="_ogonek"/>
+  <outline>
+    <contour>
+      <point x="601" y="-331" type="curve" smooth="yes"/>
+      <point x="680" y="-331"/>
+      <point x="753" y="-309"/>
+      <point x="787" y="-290" type="curve"/>
+      <point x="787" y="-193" type="line"/>
+      <point x="759" y="-209"/>
+      <point x="707" y="-230"/>
+      <point x="644" y="-230" type="curve" smooth="yes"/>
+      <point x="570" y="-230"/>
+      <point x="551" y="-211"/>
+      <point x="551" y="-157" type="curve" smooth="yes"/>
+      <point x="551" y="-92"/>
+      <point x="606" y="-48"/>
+      <point x="742" y="8" type="curve"/>
+      <point x="607" y="21" type="line"/>
+      <point x="447" y="-30"/>
+      <point x="403" y="-93"/>
+      <point x="403" y="-173" type="curve" smooth="yes"/>
+      <point x="403" y="-288"/>
+      <point x="449" y="-331"/>
+    </contour>
+    <component base="o"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

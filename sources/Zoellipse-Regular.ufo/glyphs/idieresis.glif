@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idieresis" format="2">
+  <advance width="603"/>
+  <unicode hex="00EF"/>
+  <anchor x="364" y="24" name="ogonek"/>
+  <anchor x="299" y="1056" name="top"/>
+  <outline>
+    <component base="idotless" xOffset="56"/>
+    <component base="dieresiscomb" xOffset="5" yOffset="20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>x</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>x</string>
+    </dict>
+  </lib>
+</glyph>

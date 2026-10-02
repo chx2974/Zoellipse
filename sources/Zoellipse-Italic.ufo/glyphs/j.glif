@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j" format="2">
+  <advance width="514"/>
+  <unicode hex="006A"/>
+  <outline>
+    <contour>
+      <point x="-44" y="-332" type="curve" smooth="yes"/>
+      <point x="188" y="-332"/>
+      <point x="238" y="-272"/>
+      <point x="269" y="-46" type="curve" smooth="yes"/>
+      <point x="426" y="1056" type="line"/>
+      <point x="245" y="1056" type="line"/>
+      <point x="90" y="-39" type="line" smooth="yes"/>
+      <point x="75" y="-148"/>
+      <point x="50" y="-175"/>
+      <point x="-47" y="-180" type="curve" smooth="yes"/>
+      <point x="-145" y="-185" type="line"/>
+      <point x="-163" y="-308" type="line" smooth="yes"/>
+      <point x="-163" y="-308"/>
+      <point x="-150" y="-332"/>
+    </contour>
+    <contour>
+      <point x="274" y="1290" type="line"/>
+      <point x="466" y="1290" type="line"/>
+      <point x="493" y="1481" type="line"/>
+      <point x="302" y="1481" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|n</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

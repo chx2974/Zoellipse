@@ -1,0 +1,70 @@
+FONTLOG for Zoellipse
+===================
+
+This file provides detailed information on the Zoellipse font software. It
+should be distributed along with the fonts and any derivative works.
+
+Basic Font Information
+----------------------
+
+Zoellipse is a variable sans-serif typeface, a Modified Version of Public Sans
+(which is itself a Modified Version of Libre Franklin). It is built in code
+(Python, fontmake + fontTools) from the unmodified Public Sans Glyphs sources.
+It ships as two variable fonts, upright and italic, each with a weight axis
+(wght 100-900) and nine named instances: Thin 100, ExtraLight 200, Light 300,
+Regular 400, Medium 500, SemiBold 600, Bold 700, ExtraBold 800, Black 900.
+The two fonts are linked by the STAT "ital" axis.
+
+Version: 1.000 (first release).
+Designer: Charlie Champanhet
+Copyright: The Zoellipse Project Authors and The Public Sans Project Authors
+  (see AUTHORS.txt)
+License: SIL Open Font License 1.1 (see OFL.txt). No Reserved Font Name.
+
+Changes compared to Public Sans
+-------------------------------
+
+1. Curves get a slight superellipse feel: the handles of quarter curves are
+   lengthened as if ovals became superellipses of exponent 2.4.
+2. The lowercase x-height is raised from 1034 to 1056 units (73% of cap
+   height; Public Sans is 71.5%).
+3. Digits are tabular by default: every digit and the figure space (U+2007)
+   are 620/1000 em wide at every weight, upright and italic, and are never
+   kerned. Public Sans' proportional digits are available through the "pnum"
+   feature ("tnum" switches back). At heavy weights the digits are condensed
+   slightly to fit.
+4. The font family is renamed to Zoellipse.
+
+Everything else (glyph set of about 660 glyphs including Latin extended,
+kerning, OpenType features, italic at 8 degrees) is Public Sans.
+
+ChangeLog
+---------
+
+2026-10-02 (v1.000) First release.
+
+2026-10-02 (v0.100) Initial Modified Version of Public Sans: superellipse-style
+  curves, raised x-height, tabular digits, maths and currency by default,
+  added ẞ (U+1E9E), ◌ (U+25CC) and Ǔ (U+01D3), line height 1.2 em, Regular as
+  variable default, renamed to Zoellipse.
+
+Acknowledgements
+----------------
+
+If you make modifications, be sure to add your name (N), email (E), web-address
+(W) and description (D). This list is in alphabetical order.
+
+N: Charlie Champanhet
+E: (not listed)
+W: (not listed)
+D: Zoellipse modifications (curves, x-height, tabular digits, build code).
+
+N: Pablo Impallari, Rodrigo Fuenzalida
+E: (not listed)
+W: (not listed)
+D: Original designers of Libre Franklin, on which Public Sans is based.
+
+N: The Public Sans Project Authors (USWDS / GSA)
+E: (not listed)
+W: https://github.com/uswds/public-sans
+D: Public Sans, the font Zoellipse is a Modified Version of.

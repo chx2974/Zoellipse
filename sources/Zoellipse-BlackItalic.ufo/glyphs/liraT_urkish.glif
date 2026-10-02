@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="liraTurkish" format="2">
+  <advance width="1240"/>
+  <unicode hex="20BA"/>
+  <outline>
+    <contour>
+      <point x="156" y="0" type="line"/>
+      <point x="425" y="0" type="line" smooth="yes"/>
+      <point x="827" y="0"/>
+      <point x="1034" y="266"/>
+      <point x="1163" y="542" type="curve"/>
+      <point x="862" y="612" type="line"/>
+      <point x="778" y="434"/>
+      <point x="687" y="326"/>
+      <point x="604" y="320" type="curve" smooth="yes"/>
+      <point x="599" y="320" type="line"/>
+      <point x="767" y="1446" type="line"/>
+      <point x="371" y="1446" type="line"/>
+    </contour>
+    <contour>
+      <point x="97" y="368" type="line"/>
+      <point x="905" y="706" type="line"/>
+      <point x="868" y="892" type="line"/>
+      <point x="59" y="554" type="line"/>
+    </contour>
+    <contour>
+      <point x="113" y="678" type="line"/>
+      <point x="925" y="1018" type="line"/>
+      <point x="885" y="1202" type="line"/>
+      <point x="73" y="864" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotesinglbase" format="2">
+  <advance width="483"/>
+  <unicode hex="201A"/>
+  <outline>
+    <contour>
+      <point x="87" y="-249" type="line"/>
+      <point x="173" y="-249" type="line"/>
+      <point x="343" y="31" type="line"/>
+      <point x="343" y="223" type="line"/>
+      <point x="112" y="223" type="line"/>
+      <point x="112" y="2" type="line"/>
+      <point x="198" y="-3" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>comma</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>comma</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>
